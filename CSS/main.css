@@ -1,0 +1,133 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/*******HEADER*******/
+
+#jack {
+	background-image: url('../IMG/LightJack1.png');
+	background-position: -100px 0;
+	background-size: 110%;
+}
+
+#TWS {
+	background-image: url('../IMG/TWS3.jpg');
+	background-position: 0 -150px;
+	background-size: 110%;
+}
+
+#TR {
+	background-image: url('../IMG/Raconteurs2.jpg');
+	background-size: 100%;
+	background-position: 0 -80px;
+}
+
+header {
+	background-repeat: no-repeat;
+	height: 395px;
+	width: 100%;
+}
+
+#jack img {
+	margin: 12.2% 0 0 50%;
+	width: 45%;
+}
+
+#TWS img {
+	margin: 8% 0 0 26%;
+	width: 45%;
+}
+
+#TR img {
+	margin: 14% 0 0 21%;
+	width: 60%;
+}
+
+header a {
+	color: #FFF;
+	text-decoration: none;
+	padding: 10px 30px;
+}
+
+header a:hover {
+	color: #FFF;
+	text-decoration: none;
+	background-color: #222;
+}
+
+#jack a {
+	background-color: #000;	
+}
+
+#TWS a {
+	background-color: #AC0000;	
+}
+
+#TR a {
+	background-color: #442419;
+}
+
+#jack nav {
+	margin: 10% 0 0 47%;
+}
+
+#TWS nav {
+	margin: 8.7% 0 0 23%;
+}
+
+#TR nav {
+	margin: 6.8% 0 0 23%;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+.sub1 ul {
+	display: none;
+}
+
+.sub1:hover ul {
+	display: block;
+	position: absolute;
+	margin-left: -240px;
+}
+
+.sub1 ul li a{
+	display: inline-block;
+	margin-top: 12px;
+}
+
+.sub1 .sub2 ul {
+	display: none;
+}
+
+.sub1 .sub2:hover ul {
+	display: flex;
+	position: absolute;
+	margin-left: 0;
+	flex-flow: wrap column;
+}
+
+.sub1 .sub2 ul li a {
+	display: block;
+	margin-top: 4px;
+	text-align: center;
+}
+
+.redP a {
+	padding: 10px 19px;
+}
+
+.brownP a {
+	padding: 10px 6px;
+}
+
+.blackP a {
+	padding: 10px 39px;
+}
+
+
+/*********FIN HEADER**********/
